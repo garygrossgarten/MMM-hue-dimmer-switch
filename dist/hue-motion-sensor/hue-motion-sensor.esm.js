@@ -1,0 +1,1 @@
+import{p as r,b as s}from"./p-858c5169.js";r().then(r=>s([["p-xiag3jdp",[[0,"hue-dimmer-switch",{ip:[1],raspberry:[1],username:[1],sensor:[1],timeout:[2]}]]]],r));
