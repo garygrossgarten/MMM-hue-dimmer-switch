@@ -1694,7 +1694,7 @@ const DimmerSwitchHandler = class {
     componentDidUnload() {
         this.onDestroy$.next();
     }
-    static get style() { return "hue-motion-sensor{display:block;background-color:#000;color:#fff}"; }
+    static get style() { return "hue-dimmer-switch{display:block;background-color:#000;color:#fff}"; }
 };
 
 exports.hue_dimmer_switch = DimmerSwitchHandler;

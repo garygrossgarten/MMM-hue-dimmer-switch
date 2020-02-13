@@ -1746,7 +1746,7 @@ var DimmerSwitchHandler = /** @class */ (function () {
         this.onDestroy$.next();
     };
     Object.defineProperty(DimmerSwitchHandler, "style", {
-        get: function () { return "hue-motion-sensor{display:block;background-color:#000;color:#fff}"; },
+        get: function () { return "hue-dimmer-switch{display:block;background-color:#000;color:#fff}"; },
         enumerable: true,
         configurable: true
     });
