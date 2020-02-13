@@ -1,5 +1,5 @@
 {
-  "name": "hue-motion-sensor",
+  "name": "hue-dimmer-switch",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/hue-motion-sensor/hue-motion-sensor.js",
+  "unpkg": "dist/hue-dimmer-switch/hue-dimmer-switch.js",
   "files": [
     "dist/",
     "loader/"
