@@ -1,4 +1,4 @@
-# hue-motion-sensor
+# hue-dimmer-switch
 
 
 
