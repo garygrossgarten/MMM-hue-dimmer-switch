@@ -1,6 +1,6 @@
 {
   "entries": [
-    "components/dimmer-switch/motion-sensor.js"
+    "components/dimmer-switch/dimmer-switch.js"
   ],
   "compiler": {
     "name": "@stencil/core",
