@@ -11,7 +11,7 @@ Module.register("MMM-hue-dimmer-switch", {
       const event = val.detail[1].buttonevent % 1000;
         switch (event) {
         case 1:
-          console.log("turn on");
+          this.sendNotification('REMOTE_ACTION', {action: 'MONITORON'});
           break;
         case 2:
           this.sendNotification("PAGE_INCREMENT");
@@ -20,7 +20,7 @@ Module.register("MMM-hue-dimmer-switch", {
           this.sendNotification("PAGE_DECREMENT");
           break;
         case 4:
-          console.log("turn off");
+          this.sendNotification('REMOTE_ACTION', {action: 'MONITOROFF'});
           break;
       }
     });
