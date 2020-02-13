@@ -6,9 +6,10 @@ Module.register("MMM-hue-dimmer-switch", {
     element.username = this.config.username;
     element.sensor = this.config.sensor;
     element.raspberry = this.config.raspberry;
-    element.addEventListener("dimmerclick", val => {
-      const event = val[1].buttonevent % 1000;
-      switch (event) {
+    
+    element.addEventListener("dimmerclick", (val) => {
+      const event = val.detail[1].buttonevent % 1000;
+        switch (event) {
         case 1:
           console.log("turn on");
           break;
@@ -26,6 +27,6 @@ Module.register("MMM-hue-dimmer-switch", {
     return element;
   },
   getScripts: function() {
-    return [this.file("./dist/hue-dimmmer-switch.js")];
+    return ["hue-dimmer-switch.js"];
   }
 });
