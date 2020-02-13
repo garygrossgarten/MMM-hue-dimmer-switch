@@ -26,6 +26,6 @@ Module.register("MMM-hue-dimmer-switch", {
     return element;
   },
   getScripts: function() {
-    return [this.file("./dist/hue-motion-sensor.js")];
+    return [this.file("./dist/hue-dimmmer-switch.js")];
   }
 });
