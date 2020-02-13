@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'hue-motion-sensor',
+  namespace: 'hue-dimmer-switch',
   outputTargets: [
     {
       type: 'dist',

@@ -14,10 +14,10 @@ export class DimmerSwitchHandler {
     }
     static get is() { return "hue-dimmer-switch"; }
     static get originalStyleUrls() { return {
-        "$": ["motion-sensor.css"]
+        "$": ["dimmer-switch.css"]
     }; }
     static get styleUrls() { return {
-        "$": ["motion-sensor.css"]
+        "$": ["dimmer-switch.css"]
     }; }
     static get properties() { return {
         "ip": {

@@ -54,7 +54,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
             r[k] = a[j];
     return r;
 };
-var NAMESPACE = 'hue-motion-sensor';
+var NAMESPACE = 'hue-dimmer-switch';
 var queueCongestion = 0;
 var queuePending = false;
 var win = typeof window !== 'undefined' ? window : {};

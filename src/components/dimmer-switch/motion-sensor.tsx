@@ -4,7 +4,7 @@ import { map, catchError, tap, takeUntil, switchMap, share, pairwise, filter} fr
 
 @Component({
   tag: 'hue-dimmer-switch',
-  styleUrl: 'motion-sensor.css',
+  styleUrl: 'dimmer-switch.css',
   shadow: false
 })
 export class DimmerSwitchHandler {

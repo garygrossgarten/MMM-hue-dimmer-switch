@@ -873,14 +873,14 @@ if (!win.__stencil_cssshim && needsShim()) {
 }
 
     // Figure out currentScript (for IE11, since it does not support currentScript)
-    var regex = /\/hue-motion-sensor(\.esm)?\.js($|\?|#)/;
+    var regex = /\/hue-dimmer-switch(\.esm)?\.js($|\?|#)/;
     var scriptElm = currentScript || Array.from(doc.querySelectorAll('script')).find(function(s) {
-      return regex.test(s.src) || s.getAttribute('data-stencil-namespace') === "hue-motion-sensor";
+      return regex.test(s.src) || s.getAttribute('data-stencil-namespace') === "hue-dimmer-switch";
     });
 
     var resourcesUrl = scriptElm ? scriptElm.getAttribute('data-resources-url') || scriptElm.src : '';
     var start = function() {
-      var url = new URL('./p-5ec86385.system.js', resourcesUrl);
+      var url = new URL('./p-749f5b5d.system.js', resourcesUrl);
       System.import(url.href);
     };
 

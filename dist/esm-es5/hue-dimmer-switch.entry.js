@@ -11,7 +11,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-import { r as registerInstance, c as createEvent } from './core-9a614a3a.js';
+import { r as registerInstance, c as createEvent } from './core-6d5e209c.js';
 function isFunction(x) {
     return typeof x === 'function';
 }
